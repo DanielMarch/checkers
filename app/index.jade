@@ -2,10 +2,86 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Client Template
+    title Checkers
     link(rel='stylesheet', href='./css/app.css')
   body
-    h1 Client Template
+    h1 Checkers
+    button#newgame New Game
+    table
+      tbody#board
+        tr
+          td.white(data-x=0, data-y=0)
+          td.black.playable.redstart(data-x=0, data-y=1)
+          td.white(data-x=0, data-y=2)
+          td.black.playable.redstart(data-x=0, data-y=3)
+          td.white(data-x=0, data-y=4)
+          td.black.playable.redstart(data-x=0, data-y=5)
+          td.white(data-x=0, data-y=6)
+          td.black.playable.redstart(data-x=0, data-y=7)
+        tr
+          td.black.playable.redstart(data-x=1, data-y=0)
+          td.white(data-x=1, data-y=1)
+          td.black.playable.redstart(data-x=1, data-y=2)
+          td.white(data-x=1, data-y=3)
+          td.black.playable.redstart(data-x=1, data-y=4)
+          td.white(data-x=1, data-y=5)
+          td.black.playable.redstart(data-x=1, data-y=6)
+          td.white(data-x=1, data-y=7)
+        tr
+          td.white(data-x=2, data-y=0)
+          td.black.playable.redstart(data-x=2, data-y=1)
+          td.white(data-x=2, data-y=2)
+          td.black.playable.redstart(data-x=2, data-y=3)
+          td.white(data-x=2, data-y=4)
+          td.black.playable.redstart(data-x=2, data-y=5)
+          td.white(data-x=2, data-y=6)
+          td.black.playable.redstart(data-x=2, data-y=7)
+        tr
+          td.black.playable(data-x=3, data-y=0)
+          td.white(data-x=3, data-y=1)
+          td.black.playable(data-x=3, data-y=2)
+          td.white(data-x=3, data-y=3)
+          td.black.playable(data-x=3, data-y=4)
+          td.white(data-x=3, data-y=5)
+          td.black.playable(data-x=3, data-y=6)
+          td.white(data-x=3, data-y=7)
+        tr
+          td.white(data-x=4, data-y=0)
+          td.black.playable(data-x=4, data-y=1)
+          td.white(data-x=4, data-y=2)
+          td.black.playable(data-x=4, data-y=3)
+          td.white(data-x=4, data-y=4)
+          td.black.playable(data-x=4, data-y=5)
+          td.white(data-x=4, data-y=6)
+          td.black.playable(data-x=4, data-y=7)
+        tr
+          td.black.playable.whitestart(data-x=5, data-y=0)
+          td.white(data-x=5, data-y=1)
+          td.black.playable.whitestart(data-x=5, data-y=2)
+          td.white(data-x=5, data-y=3)
+          td.black.playable.whitestart(data-x=5, data-y=4)
+          td.white(data-x=5, data-y=5)
+          td.black.playable.whitestart(data-x=5, data-y=6)
+          td.white(data-x=5, data-y=7)
+        tr
+          td.white(data-x=6, data-y=0)
+          td.black.playable.whitestart(data-x=6, data-y=1)
+          td.white(data-x=6, data-y=2)
+          td.black.playable.whitestart(data-x=6, data-y=3)
+          td.white(data-x=6, data-y=4)
+          td.black.playable.whitestart(data-x=6, data-y=5)
+          td.white(data-x=6, data-y=6)
+          td.black.playable.whitestart(data-x=6, data-y=7)
+        tr
+          td.black.playable.whitestart(data-x=7, data-y=0)
+          td.white(data-x=7, data-y=1)
+          td.black.playable.whitestart(data-x=7, data-y=2)
+          td.white(data-x=7, data-y=3)
+          td.black.playable.whitestart(data-x=7, data-y=4)
+          td.white(data-x=7, data-y=5)
+          td.black.playable.whitestart(data-x=7, data-y=6)
+          td.white(data-x=7, data-y=7)
+
 
     script(src='./js/vendor/jquery-2.1.0.js')
     script(src='./js/source/main.js')

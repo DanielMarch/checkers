@@ -1,10 +1,3 @@
-# client-template
+# Checker
 
-Serves as a template for client JavaScript applications.
-
-It uses:
-* Jade
-* Less
-* Grunt
-* JSHint
-* Node.js
+A game of checkers for one computer.
